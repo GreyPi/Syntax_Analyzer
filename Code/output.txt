@@ -1,0 +1,68 @@
+
+Token:	KEYWORD		Lexeme:	  int
+  
+Token:	IDENTIFIER		Lexeme:	  num1
+  <S> --> i=E;
+  
+Token:	SEPARATOR		Lexeme:	  ,
+  
+Token:	IDENTIFIER		Lexeme:	  num2
+  
+Token:	SEPARATOR		Lexeme:	  ,
+  
+Token:	IDENTIFIER		Lexeme:	  large$
+  <E> --> TQ
+  <T> --> FR
+  <F> --> i
+  
+Token:	KEYWORD		Lexeme:	  if
+  
+Token:	SEPARATOR		Lexeme:	  (
+  
+Token:	IDENTIFIER		Lexeme:	  num1
+  <S> --> i=E;
+  
+Token:	OPERATOR		Lexeme:	  >
+  
+Token:	IDENTIFIER		Lexeme:	  num2
+  
+Token:	SEPARATOR		Lexeme:	  )
+  
+Token:	SEPARATOR		Lexeme:	  {
+  
+Token:	IDENTIFIER		Lexeme:	  large
+  <S> --> i=E;
+  
+Token:	OPERATOR		Lexeme:	  =
+  
+Token:	IDENTIFIER		Lexeme:	  num1$
+  <E> --> TQ
+  <T> --> FR
+  <F> --> i
+  
+Token:	SEPARATOR		Lexeme:	  ;
+  <R> --> e
+  <Q> --> e
+  
+Token:	SEPARATOR		Lexeme:	  }
+  
+Token:	KEYWORD		Lexeme:	  else
+  
+Token:	SEPARATOR		Lexeme:	  {
+  
+Token:	IDENTIFIER		Lexeme:	  large
+  <S> --> i=E;
+  
+Token:	OPERATOR		Lexeme:	  =
+  
+Token:	IDENTIFIER		Lexeme:	  num2$
+  <E> --> TQ
+  <T> --> FR
+  <F> --> i
+  
+Token:	SEPARATOR		Lexeme:	  ;
+  <R> --> e
+  <Q> --> e
+  
+Token:	SEPARATOR		Lexeme:	  }
+  
