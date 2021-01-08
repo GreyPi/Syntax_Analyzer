@@ -1,6 +1,6 @@
 # Class Project
 
-**Decription:**
+**Description:**
 
   This project adds a syntax analyzer to the lexer analyzer to parse any grammer found inside of input.txt.  
   The program analyzs a string of symbols, either in natural language, computer languages or data structures, conforming to the rules   of a formal grammar.
